@@ -40,12 +40,12 @@ while True:
         ball += 1
         print(f"✅ To'g'ri! Ball: {ball}")
         natija.append(variantlar[javob]) 
-        print(natija)
+        # print(natija)
     else:
         ball -= 1
         print(f"Noto'g'ri. To'g'ri javob: {correct}. Ball: {ball}")
         natija.append(variantlar[javob])
-        print(natija)
+        # print(natija)
     if ball < 0:
         print("O'yin tugadi!")
         break
